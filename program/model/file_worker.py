@@ -1,6 +1,5 @@
 import os
 
-
 class FileWorker:
     def buildPath(self, file_path):
         return os.getcwd() + "/files/" + file_path
